@@ -1,0 +1,238 @@
+head {
+   box-sizing: border-box;
+}
+
+header {
+   background-image: url("minimoi-teks.png");
+   background-repeat:no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 72px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: auto;
+  justify-self: center;
+  align-items: center;
+}
+
+nav {
+  background-color:#5ac5bb; 
+  text-align:center; 
+  height:90px; 
+  line-height:90px; 
+  position:relative;
+  width:100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+nav ul li a {
+  float:left; 
+  width:175px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  text-align:center; 
+  color:#FFFFFF; 
+  text-decoration:none; 
+  text-transform:lowercase;
+}
+
+nav ul li a:hover {
+  background-color:#666; 
+}
+
+nav ul li:hover ul {
+  display:block;
+}
+nav ul ul {
+  display:none; 
+  position:absolute;
+  z-index:1000;
+  left:673px; 
+  top:100%; 
+  background-color:#5ac5bb;
+  line-height:40px;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav ul ul li a {
+  float:none; 
+  display:block; 
+  padding-left:30px; 
+  text-align:left; 
+  width:160px;
+}
+
+nav ul ul li a:hover {
+  color:#FFFFFF;
+}
+       
+.section-banner {
+padding: 10px;
+}
+
+.section-tentang {
+padding-top: 30px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 220px;
+}
+
+.section-filosofi {
+padding-top: 40px;
+padding-right: 0px;
+padding-bottom: 40px;
+padding-left: 220px;
+}
+
+.section-kontak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+.slider {
+  width: 100%;              
+  height:665px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  position:relative:
+  z-index:1;
+}
+
+.slides {
+      display: flex;
+      width: 100%;
+      animation: fade 9s infinite;
+    }
+
+.slides img {
+  width: 100%;
+  height:670px;
+  object-fit:cover;
+}
+
+@keyframes fade {
+      0%, 25%   { transform: translateX(0%); }    
+      33%, 58%  { transform: translateX(-100%); }  
+      66%, 91%  { transform: translateX(-200%); }    
+      100%      { transform: translateX(0%); }      
+    }
+
+.dots {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+    .dots span {
+      width: 12px;
+      height: 12px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 50%;
+      display: block;
+      animation: dot 9s infinite;
+    }
+    .dots span:nth-child(1) { animation-delay: 0s; }
+    .dots span:nth-child(2) { animation-delay: 3s; }
+    .dots span:nth-child(3) { animation-delay: 6s; }
+
+    @keyframes dot {
+      0%, 24%   { background: #5ac5bb; }
+      25%, 100% { background: rgba(255,255,255,0.5); }
+    }
+
+.grid {
+    max-width: 1124px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+}
+
+.subtitle {
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  text-align: left;	
+  display:grid;
+}
+
+.form-container {
+  flex: 1;
+}
+
+.form-img {
+  display: flex;
+  justify-content: center; /* bikin horizontal center */
+  align-items: center;     /* bikin vertical center */
+  flex-direction: column;  /* biar gambar + icon bisa ditumpuk */
+  margin-top: 20px;
+}
+
+.form-img img {
+  max-width: 40%;
+  height: auto;
+}
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #5ac5bb;
+      font-weight: 500;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 8px 0;
+      border: none;
+      border-bottom: 1px solid #999;
+      margin-bottom: 20px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #999;
+    }
+
+    textarea {
+      resize: none;
+      height: 80px;
+    }
+
+    button {
+      background: #5ac5bb;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background: #8DD5CD;
+    }
