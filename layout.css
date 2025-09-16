@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color:#666; 
+   font-style:oblique;
 }
 
 nav ul li:hover ul {
@@ -235,4 +235,5 @@ padding-left: 220px;
 
     button:hover {
       background: #8DD5CD;
+
     }
