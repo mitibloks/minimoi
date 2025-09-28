@@ -80,6 +80,29 @@ nav ul ul li a {
 nav ul ul li a:hover {
   color:#FFFFFF;
 }
+
+.minimoi-footer {
+  background-color: #5ac5bb;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.minimoi-footer .footer-brand h3 {
+  margin: 0;
+  font-size: 1.6em;
+}
+
+.minimoi-footer .footer-brand p {
+  margin: 5px 0 15px;
+  font-style: italic;
+}
+
+.minimoi-footer .footer-info p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
        
 .section-banner {
 padding: 10px;
@@ -237,6 +260,7 @@ padding-left: 220px;
       background: #8DD5CD;
 
     }
+
 
 
 
