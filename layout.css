@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-   font-weight:bold;
+  font-weight:bold;
 }
 
 nav ul li:hover ul {
@@ -159,8 +159,30 @@ nav ul ul li a:hover {
   margin: 5px 0;
   font-size: 0.9em;
 }
-
        
+.map-section {
+  padding: 30px;
+  text-align: center;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
 .section-banner {
 padding: 10px;
 }
@@ -259,15 +281,60 @@ padding-left: 220px;
   display:grid;
 }
 
+.teks{
+  padding-left:280px;
+  align-items: center;
+  text-align: left;	
+}
+
+.minimoi {
+  color: #5ac5bb;
+}
+
+.outlet-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.outlet-card img {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.outlet-info {
+  padding: 20px;
+  flex: 1;
+  color: #5c4438;
+  font-family: 'Poppins', sans-serif;
+}
+
+.outlet-info h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  color: #5ac5bb;
+}
+
+.outlet-info p {
+  margin: 8px 0;
+  font-size: 1em;
+}
+
 .form-container {
   flex: 1;
 }
 
 .form-img {
   display: flex;
-  justify-content: center; /* bikin horizontal center */
-  align-items: center;     /* bikin vertical center */
-  flex-direction: column;  /* biar gambar + icon bisa ditumpuk */
+  justify-content: center;
+  align-items: center;   
+  flex-direction: column;
   margin-top: 20px;
 }
 
@@ -315,10 +382,4 @@ padding-left: 220px;
 
     button:hover {
       background: #8DD5CD;
-
     }
-
-
-
-
-
