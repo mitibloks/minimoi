@@ -165,14 +165,6 @@ nav ul ul li a:hover {
   text-align: center;
 }
 
-.search-bar {
-  padding: 10px;
-  width: 300px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
 #map {
   height: 500px;
   width: 100%;
@@ -181,7 +173,6 @@ nav ul ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
 
 .section-banner {
 padding: 10px;
@@ -383,3 +374,4 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
