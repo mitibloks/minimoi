@@ -155,14 +155,12 @@ nav ul ul li a:hover {
   margin: 10px;
 }
 
-.footer-column h2,
-.footer-column h3 {
+.footer-column h2, .footer-column h3 {
   color: #ffffff;
   margin-bottom: 10px;
 }
 
-.footer-column p,
-.footer-column ul li {
+.footer-column p, .footer-column ul li {
   font-size: 0.95em;
   margin-bottom: 8px;
 }
@@ -415,5 +413,6 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
 
 
