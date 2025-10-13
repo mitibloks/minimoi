@@ -139,26 +139,67 @@ nav ul ul li a:hover {
 }
 
 .minimoi-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #5ac5bb;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 30px 20px;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
 }
 
-.minimoi-footer .footer-brand h3 {
-  margin: 0;
-  font-size: 1.6em;
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  padding: 0px:
+  margin: 10px;
 }
 
-.minimoi-footer .footer-brand p {
-  margin: 5px 0 15px;
-  font-style: italic;
+.footer-column h2,
+.footer-column h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
-.minimoi-footer .footer-info p {
-  margin: 5px 0;
-  font-size: 0.9em;
+.footer-column p,
+.footer-column ul li {
+  font-size: 0.95em;
+  margin-bottom: 8px;
 }
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: font-weight 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  font-weight : bold;
+}
+
+.brand p {
+  max-width: 300px;
+}
+
+.brand {
+  padding-left: 50px;
+}
+
+.about {
+  padding-left: 400px;
+}
+
+.support .copyright {
+  margin-top: 20px;
+  font-size: 0.85em;
+  color: #ffffff;
+}
+
        
 .map-section {
   padding: 30px;
@@ -374,4 +415,5 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
 
