@@ -81,6 +81,18 @@ nav ul ul li a:hover {
   color:#FFFFFF;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  /* gaya untuk tablet / ponsel besar */
+}
+@media (max-width: 480px) {
+  /* gaya khusus ponsel kecil */
+}
+
 .hot-products {
   padding: 40px 20px;
   text-align: center;
@@ -413,6 +425,7 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
 
 
 
