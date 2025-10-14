@@ -86,11 +86,7 @@ img {
   height: auto;
 }
 
-@media (max-width: 768px) {
-  /* gaya untuk tablet / ponsel besar */
-}
 @media (max-width: 480px) {
-  /* gaya khusus ponsel kecil */
 }
 
 .hot-products {
@@ -425,6 +421,7 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
 
 
 
