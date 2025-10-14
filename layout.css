@@ -81,14 +81,6 @@ nav ul ul li a:hover {
   color:#FFFFFF;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-@media (max-width: 480px) {
-}
-
 .hot-products {
   padding: 40px 20px;
   text-align: center;
@@ -421,6 +413,7 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
 
 
 
