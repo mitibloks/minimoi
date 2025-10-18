@@ -95,9 +95,8 @@ nav ul ul li a:hover {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(minmax(220px, 1fr));
   justify-items: center;
-  grid-gap: 5px;
 }
 
 .product-card {
@@ -413,6 +412,7 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
 
 
 
