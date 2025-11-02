@@ -110,6 +110,31 @@ nav ul ul li a:hover {
   color:#FFFFFF;
 }
 
+.submenu {
+  border-radius: 8px;
+  padding: 10px 0;
+  min-width: 160px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition-delay: 0.05s;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  backdrop-filter: blur(2px);
+}
+
+@keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.has-submenu:hover .submenu {
+  animation: fadeSlideDown 0.3s ease forwards;
+}
+
 .hot-products {
   padding: 40px 20px;
   text-align: center;
@@ -453,3 +478,4 @@ padding-left: 220px;
     button:hover {
       background: #8DD5CD;
     }
+
